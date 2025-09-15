@@ -1,0 +1,36 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Banco de Dados
+*.sqlite3
+db.sqlite3
+
+# Arquivos de ambiente virtual
+venv/
+env/
+.venv/
+.env
+
+# Arquivos de dependências (o pip já gera o requirements.txt para isso)
+pip-wheel-metadata/
+local_settings.py
+
+# Arquivos de IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de logs e de mídia
+*.log
+media/
+
+# Arquivos de build e distribuição
+build/
+dist/
+*.egg-info/
+
+# Arquivos estáticos coletados
+staticfiles/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
