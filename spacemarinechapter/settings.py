@@ -55,7 +55,7 @@ ROOT_URLCONF = 'spacemarinechapter.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [(BASE_DIR, 'templates')],  # <--- ADICIONE A VÍRGULA AQUI
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

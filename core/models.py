@@ -1,5 +1,5 @@
 from django.db import models
-class alunos(models.Model):
+class Aluno(models.Model):
     nome = models.CharField(max_length=50) 
     turma = models.CharField(max_length=50)
     sala = models.CharField(max_length=50)
